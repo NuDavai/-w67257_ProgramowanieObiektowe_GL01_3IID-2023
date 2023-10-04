@@ -1,0 +1,97 @@
+using System;
+
+namespace LAb1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("zad 1.");
+            Console.WriteLine("Podaj liczbe, sprawdzimy czy jest parzysta: ");
+            int liczba = int.Parse(Console.ReadLine());
+            if (liczba / 2==0)
+            {
+                Console.WriteLine("podana liczba jest parzysta");
+            }
+            else
+            {
+                Console.WriteLine("podana liczba jest nieparzysta");
+            }
+
+            Console.WriteLine("zad 2.");
+            Console.WriteLine("Podaj liczbe: ");
+            int N = int.Parse(Console.ReadLine());
+            Console.WriteLine("1");
+            for (int i=2; i<N; i=i+2)
+            {
+                Console.WriteLine(i);
+            }
+
+            Console.WriteLine("zad 3.");
+            Console.WriteLine("MENU");
+            Console.WriteLine("Wpisujac liczbe od 1 do 5 wybierz danie na obiad");
+            Console.WriteLine("(1) Kebab");
+            Console.WriteLine("(2) Pizza");
+            Console.WriteLine("(3) Kurczak z ryżem");
+            Console.WriteLine("(4) Chińskie kluski");
+            Console.WriteLine("(5) Zupka chińska");
+            int danie = int.Parse(Console.ReadLine());
+            if ( danie == 1)
+            {
+                Console.WriteLine("Kebab");
+            }
+            else if (danie == 2)
+            {
+                Console.WriteLine("Pizza");
+            }
+            else if (danie == 3)
+            {
+                Console.WriteLine("Kurczak z ryżem");
+            }
+            else if (danie == 4)
+            {
+                Console.WriteLine("Chińskie kluski");
+            }
+            else if (danie == 5)
+            {
+                Console.WriteLine("Zupka chińska");
+            }
+            Console.WriteLine("Smakowało ;)?");
+
+            Console.WriteLine("zad 4.");
+            Console.WriteLine("Silnia");
+            Console.WriteLine("Podaj liczbę z ktorej ma byc obliczona silnia");
+            int silnia = int.Parse(Console.ReadLine());
+            int wynik = 1;
+            for (int i=1; i<silnia+1; i++)
+            {
+                wynik = wynik*i;
+            }
+            Console.WriteLine("wynik:" + wynik);
+
+            Console.WriteLine("zad 5.");
+            Console.WriteLine("Gra zgadywanka");
+            Console.WriteLine("komputer wylosuje liczbe od 1 do 10, a ty zgadujesz, gotowy?");
+            Console.WriteLine("podaj liczbę jaką zgadujesz: ");
+            int zgadnij = int.Parse(Console.ReadLine());
+            Random generator = new Random();
+            int c = generator.Next(1, 11);
+            if (zgadnij == c)
+            {
+                Console.WriteLine("brawo, zgałes");
+            }
+            else
+            {
+                Console.WriteLine("nie zgadles ;(");
+            }
+            Console.WriteLine("liczbę jaką wylosowal komputer jest: " + c);
+
+            Console.WriteLine("zad 6.");
+            Console.WriteLine("Kalkulator miar");
+            Console.WriteLine("Z menu ponizej wybierz numer od 1 do 4 aby wybrac operacje");
+            Console.WriteLine("(1) z Celcjusza do Fahrenheita");
+            //...
+
+        }
+    }
+}
