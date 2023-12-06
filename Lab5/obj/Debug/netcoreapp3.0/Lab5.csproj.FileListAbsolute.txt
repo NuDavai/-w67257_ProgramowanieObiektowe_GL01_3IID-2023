@@ -1,0 +1,11 @@
+F:\-w67257_ProgramowanieObiektowe_GL01_3IID-2023\Lab5\obj\Debug\netcoreapp3.0\Lab5.csprojAssemblyReference.cache
+F:\-w67257_ProgramowanieObiektowe_GL01_3IID-2023\Lab5\obj\Debug\netcoreapp3.0\Lab5.AssemblyInfoInputs.cache
+F:\-w67257_ProgramowanieObiektowe_GL01_3IID-2023\Lab5\obj\Debug\netcoreapp3.0\Lab5.AssemblyInfo.cs
+F:\-w67257_ProgramowanieObiektowe_GL01_3IID-2023\Lab5\bin\Debug\netcoreapp3.0\Lab5.exe
+F:\-w67257_ProgramowanieObiektowe_GL01_3IID-2023\Lab5\bin\Debug\netcoreapp3.0\Lab5.deps.json
+F:\-w67257_ProgramowanieObiektowe_GL01_3IID-2023\Lab5\bin\Debug\netcoreapp3.0\Lab5.runtimeconfig.json
+F:\-w67257_ProgramowanieObiektowe_GL01_3IID-2023\Lab5\bin\Debug\netcoreapp3.0\Lab5.runtimeconfig.dev.json
+F:\-w67257_ProgramowanieObiektowe_GL01_3IID-2023\Lab5\bin\Debug\netcoreapp3.0\Lab5.dll
+F:\-w67257_ProgramowanieObiektowe_GL01_3IID-2023\Lab5\bin\Debug\netcoreapp3.0\Lab5.pdb
+F:\-w67257_ProgramowanieObiektowe_GL01_3IID-2023\Lab5\obj\Debug\netcoreapp3.0\Lab5.dll
+F:\-w67257_ProgramowanieObiektowe_GL01_3IID-2023\Lab5\obj\Debug\netcoreapp3.0\Lab5.pdb
